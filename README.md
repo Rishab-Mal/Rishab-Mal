@@ -23,7 +23,13 @@
 |---|---|---|
 | **[kvstore](https://github.com/Rishab-Mal/kvstore)** | Multithreaded Redis-style key-value server with a sharded store, crash-safe append-only log, and group-commit fsync. Sharding raised throughput 4x and cut p99 latency 79%. | C++20, POSIX sockets, Linux |
 | **VISI** | 🏆 1st place, UF SASEHacks 2026 (Service Track). Real-time assistant for visually impaired users combining gesture recognition, face detection, LLM scene narration, and speech. | Python, OpenCV, MediaPipe, YOLO, MongoDB |
-| **HNN vs. LSTM research** | Led a 5-person team comparing Hamiltonian Neural Networks and LSTMs on energy drift in chaotic systems, trained on UF's HiPerGator cluster. | C++, PyTorch, FastAPI, React |
+| **[The Chaos Wall](https://github.com/Rishab-Mal/TheChaosWall)** | Led a research team testing whether physics-informed ML can beat chaos: Hamiltonian Neural Networks vs. LSTMs on a double pendulum. Generated 500+ GB of simulation data on UF's HiPerGator B200 SuperPOD. The HNN conserved energy where the LSTM drifted. | C++, PyTorch, FastAPI, React |
+
+<p align="center">
+  <a href="https://github.com/Rishab-Mal/TheChaosWall"><img src="chaos-wall-poster.png" width="720" alt="The Chaos Wall research poster" /></a>
+  <br/>
+  <sub>The Chaos Wall research poster, Gator AI (2026)</sub>
+</p>
 
 ---
 
@@ -64,3 +70,6 @@
 
 ---
 
+<p align="center">
+  Open to <b>Summer 2027</b> internships in software, systems, and AI infrastructure.
+</p>
