@@ -1,75 +1,99 @@
-<h1 align="center">Hi, I'm Rishab</h1>
-<h3 align="center">CS @ Georgia Tech · building AI infrastructure and systems that run in production</h3>
+<!-- Header -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:8b5cf6&height=200&section=header&text=Rishab%20Malhotra&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=CS%20%40%20Georgia%20Tech%20%C2%B7%20AI%20Infrastructure%20%C2%B7%20Systems&descSize=18&descAlignY=58&animation=fadeIn" alt="Rishab Malhotra" />
+</p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/rishabmalhotra7580"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:rishab.malhotra7580@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=8B5CF6&center=true&vCenter=true&width=640&lines=Building+AI+systems+that+run+in+production;Writing+C%2B%2B+servers+I+can+benchmark+and+tune;Physics-informed+ML+on+a+B200+SuperPOD;Open+to+Summer+2027+internships" alt="Typing intro" />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/rishabmalhotra7580"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:rishab.malhotra7580@gmail.com"><img src="https://img.shields.io/badge/Email-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/Rishab-Mal?tab=repositories"><img src="https://img.shields.io/badge/All_Repos-24292F?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
 ---
 
-### About me
+## About me
 
-- 🎓 Computer Science at **Georgia Tech**, threads in **Intelligence** and **Systems & Architecture**
-- 💼 Software Engineering Intern at **Southern Company**, AI Center of Excellence (May 2026 to present)
-- 🛠️ I like building things end to end: speech pipelines that run on 15,000 calls a day, document extraction tools other teams depend on, and low-level C++ servers I can benchmark and tune
-- 🔭 Interested in **AI infrastructure**, **systems programming**, and **production ML**
+```cpp
+struct Rishab {
+    std::string school    = "Georgia Tech, B.S. Computer Science";
+    std::string threads   = "Intelligence + Systems & Architecture";
+    std::string work      = "SWE Intern @ Southern Company, AI Center of Excellence";
+    std::vector<std::string> building = {
+        "speech pipelines on 15,000 calls a day",
+        "AI document extraction used by 5 teams",
+        "C++ servers benchmarked down to p99 latency"
+    };
+    std::string next      = "Summer 2027: software, systems, AI infrastructure";
+};
+```
 
 ---
 
-### Featured projects
+## Featured work
 
-| Project | What it is | Stack |
-|---|---|---|
-| **[kvstore](https://github.com/Rishab-Mal/kvstore)** | Multithreaded Redis-style key-value server with a sharded store, crash-safe append-only log, and group-commit fsync. Sharding raised throughput 4x and cut p99 latency 79%. | C++20, POSIX sockets, Linux |
-| **VISI** | 🏆 1st place, UF SASEHacks 2026 (Service Track). Real-time assistant for visually impaired users combining gesture recognition, face detection, LLM scene narration, and speech. | Python, OpenCV, MediaPipe, YOLO, MongoDB |
-| **[The Chaos Wall](https://github.com/Rishab-Mal/TheChaosWall)** | Led a research team testing whether physics-informed ML can beat chaos: Hamiltonian Neural Networks vs. LSTMs on a double pendulum. Generated 500+ GB of simulation data on UF's HiPerGator B200 SuperPOD. The HNN conserved energy where the LSTM drifted. | C++, PyTorch, FastAPI, React |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Rishab-Mal/kvstore">⚡ kvstore</a></h3>
+      Multithreaded Redis-style key-value server with a sharded store, a crash-safe append-only log, and group-commit fsync.
+      <br/><br/>
+      <b>4x throughput</b> and <b>79% lower p99</b> from sharding, measured across 5 benchmark sessions.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/C++20-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+      <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+      <img src="https://img.shields.io/badge/POSIX_sockets-333333?style=flat-square" />
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Rishab-Mal/TheChaosWall">🌀 The Chaos Wall</a></h3>
+      Can physics-informed ML beat chaos? Hamiltonian Neural Networks vs. LSTMs on a double pendulum.
+      <br/><br/>
+      <b>500+ GB</b> of simulation data generated on UF's <b>B200 SuperPOD</b>. The HNN conserved energy where the LSTM drifted.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+      <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+      <img src="https://img.shields.io/badge/HiPerGator-0021A5?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Rishab-Mal/High-Performance-Event-Driven-Backtester-C-20-">📈 Event-Driven Backtester</a></h3>
+      Low-latency engine for testing trading strategies on historical tick data, designed to avoid look-ahead bias.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/C++20-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>👁️ VISI</h3>
+      🏆 <b>1st place, UF SASEHacks 2026</b> (Service Track). Real-time assistant for visually impaired users: gesture recognition, face detection, LLM scene narration, and speech.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+      <img src="https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square" />
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <a href="https://github.com/Rishab-Mal/TheChaosWall"><img src="1785720388400.jpg" width="720" alt="The Chaos Wall research poster" /></a>
+  <a href="https://github.com/Rishab-Mal/TheChaosWall"><img src="1785720388400.jpg" width="760" alt="The Chaos Wall research poster" /></a>
   <br/>
   <sub>The Chaos Wall research poster, Gator AI (2026)</sub>
 </p>
 
 ---
 
-### Tech stack
+## Tech stack
 
-**Languages**
-<br/>
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" />
-
-**AI / ML**
-<br/>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
-<img src="https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" />
-<img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
-
-**Backend, Cloud & Data**
-<br/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
-<img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" />
-<img src="https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
-
-**Frontend & Tools**
-<br/>
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,py,ts,js,java,pytorch,opencv&perline=7" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=fastapi,react,tailwind,docker,linux,gcp,azure,mongodb,git,figma&perline=10" />
+</p>
 
 ---
 
 <p align="center">
-  Open to <b>Summer 2027</b> internships in software, systems, and AI infrastructure.
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,100:2563eb&height=100&section=footer" />
 </p>
