@@ -26,7 +26,7 @@
 | **[The Chaos Wall](https://github.com/Rishab-Mal/TheChaosWall)** | Led a research team testing whether physics-informed ML can beat chaos: Hamiltonian Neural Networks vs. LSTMs on a double pendulum. Generated 500+ GB of simulation data on UF's HiPerGator B200 SuperPOD. The HNN conserved energy where the LSTM drifted. | C++, PyTorch, FastAPI, React |
 
 <p align="center">
-  <a href="https://github.com/Rishab-Mal/TheChaosWall"><img src="chaos-wall-poster.png" width="720" alt="The Chaos Wall research poster" /></a>
+  <a href="https://github.com/Rishab-Mal/TheChaosWall"><img src="1785720388400.jpg" width="720" alt="The Chaos Wall research poster" /></a>
   <br/>
   <sub>The Chaos Wall research poster, Gator AI (2026)</sub>
 </p>
