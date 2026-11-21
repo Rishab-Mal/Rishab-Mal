@@ -64,6 +64,3 @@
 
 ---
 
-<p align="center">
-  Open to <b>Summer 2027</b> internships in software, systems, and AI infrastructure.
-</p>
