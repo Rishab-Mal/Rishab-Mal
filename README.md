@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=8B5CF6&center=true&vCenter=true&width=640&lines=Building+AI+systems+that+run+in+production;Writing+C%2B%2B+servers+I+can+benchmark+and+tune;Physics-informed+ML+on+a+B200+SuperPOD;Open+to+Summer+2027+internships" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=8B5CF6&center=true&vCenter=true&width=640&lines=Building+AI+systems+that+run+in+production;Writing+C%2B%2B+servers+I+can+benchmark+and+tune;Physics-informed+ML+on+a+B200+SuperPOD" alt="Typing intro" />
 </p>
 
 <p align="center">
@@ -19,15 +19,14 @@
 
 ```cpp
 struct Rishab {
-    std::string school    = "Georgia Tech, B.S. Computer Science";
-    std::string threads   = "Intelligence + Systems & Architecture";
-    std::string work      = "SWE Intern @ Southern Company, AI Center of Excellence";
+    std::string school  = "Georgia Tech, B.S. Computer Science";
+    std::string threads = "Intelligence + Systems & Architecture";
     std::vector<std::string> building = {
-        "speech pipelines on 15,000 calls a day",
-        "AI document extraction used by 5 teams",
-        "C++ servers benchmarked down to p99 latency"
+        "C++ servers benchmarked down to p99 latency",
+        "physics-informed ML on a B200 SuperPOD",
+        "real-time computer vision"
     };
-    std::string next      = "Summer 2027: software, systems, AI infrastructure";
+    std::string focus   = "software, systems, AI infrastructure";
 };
 ```
 
