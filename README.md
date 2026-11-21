@@ -66,7 +66,7 @@ struct Rishab {
       <img src="https://img.shields.io/badge/C++20-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
     </td>
     <td width="50%" valign="top">
-      <h3>👁️ VISI</h3>
+      <h3><a href="https://github.com/Ryanqu27/SASEHacks-Visi">👁️ VISI</a></h3>
       🏆 <b>1st place, UF SASEHacks 2026</b> (Service Track). Real-time assistant for visually impaired users: gesture recognition, face detection, LLM scene narration, and speech.
       <br/><br/>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
