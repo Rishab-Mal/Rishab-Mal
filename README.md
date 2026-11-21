@@ -1,10 +1,10 @@
 <!-- Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,100:8b5cf6&height=200&section=header&text=Rishab%20Malhotra&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=CS%20%40%20Georgia%20Tech%20%C2%B7%20AI%20Infrastructure%20%C2%B7%20Systems&descSize=18&descAlignY=58&animation=fadeIn" alt="Rishab Malhotra" />
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,100:0e7490&height=220&section=header&text=Rishab%20Malhotra&fontSize=52&fontColor=67e8f9&fontAlignY=35&desc=CS%20%40%20Georgia%20Tech%20%C2%B7%20AI%20Infrastructure%20%C2%B7%20Systems&descSize=18&descAlignY=58&animation=twinkling" alt="Rishab Malhotra" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=8B5CF6&center=true&vCenter=true&width=640&lines=Building+AI+systems+that+run+in+production;Writing+C%2B%2B+servers+I+can+benchmark+and+tune;Physics-informed+ML+on+a+B200+SuperPOD" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=67E8F9&center=true&vCenter=true&width=640&lines=Building+AI+systems+that+run+in+production;Writing+C%2B%2B+servers+I+can+benchmark+and+tune;Physics-informed+ML+on+a+B200+SuperPOD" alt="Typing intro" />
 </p>
 
 <p align="center">
@@ -94,5 +94,5 @@ struct Rishab {
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,100:2563eb&height=100&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0e7490,100:0d1117&height=120&section=footer" />
 </p>
